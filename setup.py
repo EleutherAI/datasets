@@ -81,7 +81,9 @@ REQUIRED_PKGS = [
     # for fast hashing
     "xxhash",
     # for better multiprocessing
-    "multiprocess"
+    "multiprocess",
+    # for extracting zstd files
+    "zstandard"
 ]
 
 BENCHMARKS_REQUIRE = [
